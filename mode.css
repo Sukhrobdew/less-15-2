@@ -1,0 +1,120 @@
+.switch {
+    margin: 5px 15px;
+   
+}
+
+.switch input {
+  width: 60px;
+  background-color: rgb(36, 33, 33);
+  padding: 2.5px 5px;
+  height: 25px;
+  border-radius: 40px;
+  appearance: none;
+  cursor: pointer;
+}
+
+.switch input::after {
+  content: "";
+  display: inline-block;
+  background-color:rgb(249, 241, 241);
+  width: 30px;
+  border-radius: 30px;
+  height: 20px;
+  transition: 0.5s;
+}
+
+.switch input:checked::after {
+    margin-left: 30px;
+    background-color: black;
+    transition: 0.5s;
+}
+
+.switch input:checked {
+    background-color:rgb(216, 207, 207);
+}
+
+/* checkbox */
+
+
+.chik {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .chik input {
+    width: 35px;
+    height: 35px;
+    background-color: blue;
+    appearance: none;
+    border-radius: 5px;
+  }
+  
+  .chik input::after {
+    content: "";
+    display: none;
+    width: 23px;
+    height: 15px;
+    margin-top: 8px;
+    margin-left: 8px;
+    border: 5px solid white;
+    border-color: transparent transparent white white;
+  }
+  
+  .chik input:checked::after {
+    display: block;
+    transform: rotate(-45deg);
+  }
+
+
+
+/* table------------------- */
+
+main {
+    overflow: auto;
+}
+
+header {
+    overflow: auto;
+}
+
+
+
+table {
+    margin-top: 50px;
+    width: 100%;
+    font-family: 'Lato';
+    
+    
+}
+
+thead {
+ 
+    text-align: left;
+    font-size: 25px;
+    
+}
+
+tbody {
+    font-size: 20px;
+}
+
+td {
+  border-collapse: collapse;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+th,td {
+    padding: 12px 30px;
+}
+table img {
+  width: 40px;
+  height: 40px;
+}
+
+.grn {
+  color: 
+  #00CA39;
+}
+.red {
+  color: red;
+}

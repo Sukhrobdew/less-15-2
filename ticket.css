@@ -1,0 +1,115 @@
+
+
+#tick {
+    width: 100%;
+    border: 1px solid #9fa2b4;
+    margin: 10px;
+
+    
+}
+
+td {
+    border-collapse: collapse;
+    border-bottom: 1px solid #acaeba;
+}
+
+#tick thead {
+  border-right-color: white;
+  color: #9fa2b4;
+  
+}
+
+#tick .bar {
+  display: flex;
+  gap: 10px;
+}
+
+.bosh {
+    font-size: 22px;
+    color: #252733;
+}
+
+.bar .day-1 {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.1px;
+  color: #c5c7cd;
+}
+
+.bar p {
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.2px;
+  color: #252733;
+}
+.bar1 {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #252733;
+}
+.bar1 .day-1 {
+    font-family: "Mulish";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    color: #c5c7cd;
+}
+
+.high .dot1 {
+    color: #C5C7CD;
+    padding-left: 82px;
+    background-color: #fff;
+    font-size: 25px;
+}
+
+
+.high  span{
+   color: white;
+   font-size: 11px;
+   padding: 10px;
+   background-color: rgb(234, 51, 51);
+   border-radius: 10px;
+
+}
+
+.low span{
+    color: white;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #FEC400;
+}
+
+.low .dot1 {
+    color: #C5C7CD;
+    padding-left: 83px;
+    background-color: #fff;
+    font-size: 25px;
+}
+
+.normal span {
+    color: white;
+    font-size: 11px;
+    padding: 10px;
+    border-radius: 10px;
+    background: #29CC97;
+}
+
+.normal .dot1 {
+    color: #C5C7CD;
+    padding-left: 80px;
+    background-color: #fff;
+    font-size: 25px;
+}
